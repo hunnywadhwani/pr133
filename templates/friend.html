@@ -12,7 +12,7 @@
 
     <!--Write the correct link for image source in place of #. The images are present in the 
             static folder. If you dont like those images you can use your own as well-->
-    <img src="static/friend.jpg" alt="Reference your friends image present in the static folder" width="200" />
+    <img src="{{ url_for('static' , filename = 'friend.jpg') }}" width="200" />
 </body>
 
 </html>
