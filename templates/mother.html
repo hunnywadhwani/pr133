@@ -12,7 +12,7 @@
 
     <!--Write the correct link for image source in place of #. The images are present in the 
             static folder. If you dont like those images you can use your own as well-->
-    <img src="static/mother.jpeg" alt=" Reference your mothers image present in the static folder" width="200" />
+    <img src="{{ url_for('static' , filename = 'mother.jpeg') }}" width="200" />
 </body>
 
 </html>
